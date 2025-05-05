@@ -1,0 +1,39 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+}
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+section#cel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+}
+iframe#tela{
+    width: 270px;
+    height: 471px;
+    position: relative;
+    top: 80px;
+    left: 22px;
+}
